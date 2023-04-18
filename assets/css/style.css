@@ -49,3 +49,11 @@ footer {
     width: 100px;
     background-color: blue;
 }
+
+.burger-menu{
+    margin: 10px 10px 0 0;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    float: right;
+}
