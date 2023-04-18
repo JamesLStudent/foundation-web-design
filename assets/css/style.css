@@ -50,10 +50,26 @@ footer {
     background-color: blue;
 }
 
+.burger-container{
+    width: 100%;
+    height: 70px;
+}
+
 .burger-menu{
     margin: 10px 10px 0 0;
     height: 50px;
     width: 50px;
     background-color: aqua;
     float: right;
+}
+
+.album-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+#music-h1{
+    margin:-10px auto 0;
 }
