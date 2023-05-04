@@ -77,3 +77,10 @@ footer {
 #music-h1{
     margin:-10px auto 0;
 }
+
+.members-image{
+    margin: 10px auto;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
