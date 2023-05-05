@@ -24,9 +24,7 @@ footer {
     width: 100%;
     height: 15%;
     background-color: blueviolet;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin-top: 10%;
 }
 
 .long-text{
@@ -111,3 +109,20 @@ footer {
 input{
     margin-top: 10px;
 }
+
+/*hide the inputs/checkmarks and submenu*/
+.nav-input, ul.submenu {
+    display: none;
+  }
+  
+  /*position the label*/
+  .nav-label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  /*show the submenu when input is checked*/
+  input:checked~ul.submenu {
+    display: block;
+  }
