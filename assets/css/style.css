@@ -131,8 +131,11 @@ input{
 
   .nav-item{
     list-style-type: none;
+    padding: 20px 0 0 20px;
   }
-
+/*fixed position here sticks the dropdown menu to the screen, but won't stick the menu icon,
+as its position is relative. This is an issue if the dropdown is opened and the user then
+attempts to scroll down*/
   .submenu{
     padding: 0px;
     margin: -60px -100px 0;
