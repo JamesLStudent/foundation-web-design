@@ -102,8 +102,9 @@ footer {
     text-align: center;
 }
 
-.form-pusher{
+.pusher{
     margin-left: 35%;
+    height: 10%;
 }
 
 input{
@@ -120,9 +121,24 @@ input{
     position: relative;
     display: block;
     cursor: pointer;
+    z-index: 200;
   }
   
   /*show the submenu when input is checked*/
   input:checked~ul.submenu {
     display: block;
+  }
+
+  .nav-item{
+    list-style-type: none;
+  }
+
+  .submenu{
+    padding: 0px;
+    margin: -60px -100px 0;
+    background-color:darkgreen;
+    height: 100vh;
+    position: fixed;
+    width: 200px;
+    z-index: 100;
   }
