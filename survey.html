@@ -16,49 +16,31 @@
         </div>
     </div>
     <h1 class="justify">The first 100 submissions will receive a signed copy of The Monarchy's new single, "The Descent"</h1>
-    <div class="justify">
-        <div class="members-image">
-            <img src="#" alt="image of Elvis">
-        </div>
-        <div class="members-image">
-            <img src="#" alt="image of Hendrix">
-        </div>
-        <div class="members-image">
-            <img src="#" alt="image of Freddie">
-        </div>
-    </div>
-    <article class="long-text">
-        <h2>ELVIS PRESLEY</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ipsum sapien, pulvinar quis
-            pretium non, bibendum eu turpis. Sed scelerisque leo sapien, vitae gravida arcu semper vel.
-            Vestibulum quis pulvinar ante. Aenean id semper est, eu placerat lacus. Nullam tincidunt leo
-            quis purus vestibulum molestie. Duis nec nibh vulputate, posuere lacus ac, porttitor nibh.
-            Aliquam imperdiet scelerisque diam, vel vehicula urna porttitor et. Proin tempor sem eu dolor
-            gravida convallis.
-            <br><br>
-        </p>
-        <h2>JIMI HENDRIX</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ipsum sapien, pulvinar quis
-            pretium non, bibendum eu turpis. Sed scelerisque leo sapien, vitae gravida arcu semper vel.
-            Vestibulum quis pulvinar ante. Aenean id semper est, eu placerat lacus. Nullam tincidunt leo
-            quis purus vestibulum molestie. Duis nec nibh vulputate, posuere lacus ac, porttitor nibh.
-            Aliquam imperdiet scelerisque diam, vel vehicula urna porttitor et. Proin tempor sem eu dolor
-            gravida convallis.
-            <br><br>
-        </p>
-        <h2>FREDDIE MERCURY</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ipsum sapien, pulvinar quis
-            pretium non, bibendum eu turpis. Sed scelerisque leo sapien, vitae gravida arcu semper vel.
-            Vestibulum quis pulvinar ante. Aenean id semper est, eu placerat lacus. Nullam tincidunt leo
-            quis purus vestibulum molestie. Duis nec nibh vulputate, posuere lacus ac, porttitor nibh.
-            Aliquam imperdiet scelerisque diam, vel vehicula urna porttitor et. Proin tempor sem eu dolor
-            gravida convallis.
-            <br><br>
-        </p>
-    </article>
+    <form action="#" method="get"  onSubmit="alert('Thank you! Expect an email shortly to see if you won.');">
+        <input type="text" placeholder="Please enter your name here:" name="full_name" required><br>
+        <input type="email" placeholder="Please enter your email address here:" name="email_address" required><br>
+        <input type="number" placeholder="Please enter your age here:" name="age" required><br>
+        <fieldset>
+            <legend>Please select your gender:</legend>
+            <div>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label>
+            </div>
+            <div>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label>
+            </div>
+            <div>
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">Other</label>
+            </div>
+            <div>
+                <input type="radio" id="PNTS" name="gender" value="PNTS">
+                <label for="PNTS">Prefer not to say</label>
+              </div>
+        </fieldset>
+        <input type="submit">
+    </form>
     <footer>
         Example text  
         <a href="index.html">home page</a>
