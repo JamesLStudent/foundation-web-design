@@ -145,3 +145,16 @@ attempts to scroll down*/
     width: 200px;
     z-index: 100;
   }
+
+  @font-face{
+    font-family: rock;
+    src:url(assets/fonts/RocknRollRegular.ttf);
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  .title-font{
+    font-family: rock;
+    font-weight: 100;
+    color: aquamarine;
+  }
