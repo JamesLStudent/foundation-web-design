@@ -33,6 +33,9 @@ footer {
 
 .long-text{
     margin: 10px 10px 10px 10px;
+    font-family: proxima-nova,sans-serif;
+    color: white;
+    font-weight: normal;
 }
 
 .title_box {
@@ -176,4 +179,9 @@ attempts to scroll down*/
     color: white;
     font-weight: 200;
     font-size: xxx-large;
+  }
+
+  .subheading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
   }
