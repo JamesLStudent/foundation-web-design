@@ -26,9 +26,10 @@ h2 {
 
 footer {
     width: 100%;
-    height: 15%;
-    background-color: blueviolet;
+    background-color: #575757;
     margin-top: 10%;
+    color: rgba(179,179,177,255);
+    padding: 10px 0 5px 15px;
 }
 
 .long-text{
@@ -126,7 +127,7 @@ input{
 /*hide the inputs/checkmarks and submenu*/
 .nav-input, ul.submenu {
     display: none;
-  }
+}
   
   /*position the label*/
   .nav-label {
@@ -186,6 +187,7 @@ attempts to scroll down*/
     color: white;
   }
 
-  p{
-    text-align: center;
+  .fb-logo{
+    height: 40px;
+    width: 40px;
   }
