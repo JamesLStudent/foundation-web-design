@@ -55,7 +55,7 @@ footer {
     margin: 10px auto;
     height: 100px;
     width: 100px;
-    background-image: url(../images/logo.png);
+    background-image: url(../images/logo-white.png);
     background-size:contain;
     background-repeat:no-repeat;
 }
@@ -184,4 +184,8 @@ attempts to scroll down*/
   .subheading{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+  }
+
+  p{
+    text-align: center;
   }
