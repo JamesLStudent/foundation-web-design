@@ -25,7 +25,6 @@ h2 {
 }
 
 footer {
-    width: 100%;
     background-color: #575757;
     margin-top: 10%;
     color: rgba(179,179,177,255);
@@ -86,6 +85,9 @@ footer {
     height: 300px;
     margin: 0 auto;
     background-color: brown;
+    background-image: url(../images/album.png);
+    background-size:contain;
+    background-repeat:no-repeat;
 }
 
 #music-h1{
