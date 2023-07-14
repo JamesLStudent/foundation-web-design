@@ -98,10 +98,15 @@ footer {
     margin: 10px;
     height: 100px;
     width: 100px;
-    background-color: blue;
+    background-color: black;
     display: inline-block;
-    background-size: cover;
-    background-repeat:no-repeat;
+}
+
+.members-image-style{
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .justify{
