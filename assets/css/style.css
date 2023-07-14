@@ -100,6 +100,8 @@ footer {
     width: 100px;
     background-color: blue;
     display: inline-block;
+    background-size: cover;
+    background-repeat:no-repeat;
 }
 
 .justify{
