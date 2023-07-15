@@ -332,5 +332,25 @@ attempts to scroll down, and I don't currently know how to dix it*/
 /*----------------- DESKTOP MEDIA QUERIES -----------------*/
 
 @media (min-width: 992px) {
+    .wrapper {
+        padding: 0 20%;
+    }
+    
+    .long-text{
+        font-size: 25px;
+    }
 
+    .banner_img{
+        height: 90%;
+        width: 60%;
+        margin: 10px 20%;
+    }
+}
+
+/*----------------- LARGE DESKTOP MEDIA QUERIES -----------------*/
+
+@media (min-width: 1500px) {
+    .title_box {
+        margin: -8% 0 0 0;
+    }
 }
