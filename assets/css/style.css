@@ -224,6 +224,11 @@ attempts to scroll down, and I don't currently know how to dix it*/
     margin: 100%;  /*note that while this class is never directly used in any HTML pages, it appears in the JavaScript file*/
 }
 
+.nav-pusher{
+    height: 10%;
+    list-style-type: none;
+}
+
   /*----------------- MOBILE MEDIA QUERIES -----------------*/
   @media (max-width: 767px) {
 
@@ -317,7 +322,6 @@ attempts to scroll down, and I don't currently know how to dix it*/
         display: block;
         background-color: #040f13;
         text-align: center;
-        width: justify;
         padding: 10px 0 10px
     }
 
