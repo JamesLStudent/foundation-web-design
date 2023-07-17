@@ -219,6 +219,11 @@ attempts to scroll down, and I don't currently know how to dix it*/
     height: 40px;
     width: 40px;
   }
+
+.footer-pusher{
+    margin: 100%;  /*note that while this class is never directly used in any HTML pages, it appears in the JavaScript file*/
+}
+
   /*----------------- MOBILE MEDIA QUERIES -----------------*/
   @media (max-width: 767px) {
 
